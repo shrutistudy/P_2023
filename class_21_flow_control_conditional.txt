@@ -1,0 +1,77 @@
+                          Flow Control:-
+                            ------------
+
+Flow control describes the order in which statements will be executed at runtime.
+
+
+1. Conditional Statement :- if,elif,else
+2. Iterative Statement :- for,while
+3. Transfer Statement :- break,continue,pass
+
+Conditional Statement:-
+----------------------
+if condition is True then statemnts will be executed.
+Syntx:-
+
+if condition:
+   statement-1
+   statement-2
+
+ex:-
+name = input("Enter your name:-")
+if name == "Suvendu":
+    print("Happy Married Life")
+
+
+if-else:-
+--------
+If condition is true then if statement will be exceuted otherwise else statement will be executed, else no need the condition , when if failed else automatically executed.
+
+if condition:
+   statement
+else:
+   statement
+
+ex:-
+
+a = int(input("Enter a number_1:-"))
+b = int(input("Enter a number_2:-"))
+
+if a>b:
+    print(a,'is the biggest no.:-')
+else:
+    print(b,'is the biggest no.:-')
+
+
+1.Write a Program if number is float then add with another no.
+2.Write a program if element is set then add in a list in 2nd index.
+3.Write a Program check data is a tuple or not.
+
+running notes:-
+--------------
+
+name = input('Enter your name:-')
+
+if name == 'Rahul':
+    print(name,'good morning')
+else:
+    print(name, 'good eveng')
+
+
+#print number is even or not
+
+num = int(input('Enter a number:-'))
+
+if num%2==0:
+    print('even')
+else:
+    print('odd')
+
+#str or not
+
+name = eval(input('Enter your data:-'))
+
+if type(name) == str:
+    print(True)
+else:
+    print('provide a string')

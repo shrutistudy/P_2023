@@ -1,0 +1,56 @@
+
+Type Casting:-
+------------
+we can covert one data type to another datatype, this we will use type casting.
+
+1.int()
+2.float()
+3.complex()
+4.bool()
+4.str()
+
+>>> a = 1
+>>> type(a)
+<class 'int'>
+>>> float(a)
+1.0
+>>> complex(a)
+(1+0j)
+>>> bool(a)
+True
+>>> str(a)
+'1'
+>>> 
+
+
+
+Frozenset:-
+It's exactly same as set except that it is immutable.
+For Frozenset no symbol is there, we can create a frozen set the help type casting(list,tuple,set)
+
+>>> li = [89,90,78]
+>>> fz = frozenset(li)
+>>> fz
+frozenset({89, 90, 78})
+>>> type(fz)
+<class 'frozenset'>
+
+>>> byts
+bytearray(b'N8{\xffN')
+>>> type(byts)
+<class 'bytearray'>
+
+
+Note:- If a put above 255, it's showing ValueError.
+
+>>> li = [78,56,123,256,78]
+>>> byts = bytearray(li)
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    byts = bytearray(li)
+ValueError: byte must be in range(0, 256)
+>>> 
+
+
+range:- Now we hold this one, we will continuw after flow control(for loop).
+
